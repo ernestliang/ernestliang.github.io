@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* THIS IS ALL FOR STICKY NAV */
+body {
+  font-family: "Lato", "Tahoma", "Verdana";
+  font-size: 1.0em;
+  padding: 5px;
+}
+ 
+ /* #navbar {
+    overflow: hidden;
+    background-color: rgb(20, 18, 18);
+  } */
+  /* #navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none !important;
+  } */
+  nav ul a {
+    text-decoration: none !important;
+    color: white;
+  }
+  .content {
+    padding: 16px;
+  }
+
+/* FOR IMAGES */
+img.small {
+  object-fit: cover;
+  width:100%;
+  height:250px;
+}
+img.crsl {
+  height: auto;
+  width: 350px;
+}
+
+/* Product Page Tabs Settings */
+ul li a {
+  font-size:0.8em;
+}
+
+/* This is for the Navbar */
+.navbar-nav a {
+  font-size: 1em;
+}
+
+.section-header h3 {
+  font-size:43px;
+  font-weight: 300;
+  margin-bottom:20px;
+  color: #485664;
+  text-decoration: underline;
+}
+
+.thumbnail a img {
+  transform: scale(0.8);
+}
+
+.thumbnail .title {
+  color:darkblue;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.thumbnail .addOn {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.aboutUs {
+  text-align: center;
+}
+
+.aboutUs .main {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.aboutUs .subHeader {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.aboutUs p {
+  font-weight: 300;
+}
+
+/* Category Menu */
+.collection-menu .nav a {
+  border: 1px solid #ddd;
+  margin-bottom: -1px;
+  line-height: 58px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #777;
+}
+
+.collection-menu p {
+  border: 1px solid #ddd;
+  margin-bottom: -1px;
+  line-height: 55px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  color: #777;
+}
+
+/* This is all going to be for the Product Page */
+.productTitle {
+  color:darkblue;
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.productTabTitle {
+  font-size: 2.0em;
+  font-weight: 500;
+}
+
+.hand:hover {
+  cursor: pointer;
+}
+
+/* This is for the Register Modal */
+.modalTitle {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.modalSubText {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+/* Highlighted Categories */
+div .activeCat {
+  background-color: blue;
+  color: white;
+}
+
+/* Cart Stuff  */
+.cartImg {
+  width: 300px;
+  height: auto;
+}
