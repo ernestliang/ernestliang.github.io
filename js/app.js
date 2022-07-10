@@ -12,8 +12,8 @@ function getPrdFrmCat(category) {
     var ele1 = document.getElementById("href1");
     var ele2 = document.getElementById("href2");
 
-    ele1.href = 'ProductPage.html?id=' + products[0].ID;
-    ele2.href = 'ProductPage.html?id=' + products[1].ID;
+    ele1.href = 'productpage.html?id=' + products[0].ID;
+    ele2.href = 'productpage.html?id=' + products[1].ID;
 
     // --> Giving Categories BG Color
 
@@ -48,9 +48,9 @@ function getNewArrivalProducts() {
 
     var newProducts = ProductsArray.filter(x => x.type == 1);
     // Solving the Href's
-    document.getElementById("newHref1").href = "ProductPage.html?id=" + newProducts[0].ID;
-    document.getElementById("newHref2").href = "ProductPage.html?id=" + newProducts[1].ID;
-    document.getElementById("newHref3").href = "ProductPage.html?id=" + newProducts[2].ID;
+    document.getElementById("newHref1").href = "productpage.html?id=" + newProducts[0].ID;
+    document.getElementById("newHref2").href = "productpage.html?id=" + newProducts[1].ID;
+    document.getElementById("newHref3").href = "productpage.html?id=" + newProducts[2].ID;
 
     // Solving the Prices
     document.getElementById("newImg1").src = newProducts[0].img;
@@ -69,9 +69,9 @@ function getDiscountProducts() {
 
     debugger;
     // Solving the Href's
-    document.getElementById("discHref1").href = "ProductPage.html?id=" + discProducts[0].ID;
-    document.getElementById("discHref2").href = "ProductPage.html?id=" + discProducts[1].ID;
-    document.getElementById("discHref3").href = "ProductPage.html?id=" + discProducts[2].ID;
+    document.getElementById("discHref1").href = "productpage.html?id=" + discProducts[0].ID;
+    document.getElementById("discHref2").href = "productpage.html?id=" + discProducts[1].ID;
+    document.getElementById("discHref3").href = "productpage.html?id=" + discProducts[2].ID;
 
     // Solving the Prices
     document.getElementById("discImg1").src = discProducts[0].img;
